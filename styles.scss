@@ -214,7 +214,7 @@ section {
   .right-about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    gap: 2rem;
     transform: translateX(-15%);
     .about-item {
       border: 1px solid var(---color-grey-4);
@@ -274,11 +274,10 @@ section {
 
 .about-stats {
   padding-bottom: 4rem;
-  transform: translateX(-10%);
   .progress-bars {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    gap: 2rem;
     .progress-bar {
       display: flex;
       flex-direction: column;
@@ -307,7 +306,64 @@ section {
             transition: all 0.4s ease-in-out;
             width: 70%;
           }
+          .html {
+            width: 70%;
+          }
+          .css {
+            width: 50%;
+          }
+          .js {
+            width: 50%;
+          }
+          .git {
+            width: 50%;
+          }
         }
+      }
+    }
+  }
+}
+
+.stat-title {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 3.5rem 0;
+  position: relative;
+  &::before {
+    content: "";
+    left: 50%;
+    top: 0;
+    width: 40%;
+    height: 1px;
+    background-color: var(---color-grey-4);
+    transform: translateX(-50%);
+  }
+}
+
+/*Timeline*/
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding-bottom: 3rem;
+  .timeline-item {
+    position: relative;
+    padding-left: 3rem;
+    border-left: 1px solid var(---color-grey-4);
+    .tl-icon {
+      position: absolute;
+      left: -27px;
+      top: 0;
+      background-color: var(--color-secondary);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      i {
+        font-size: 1.3rem;
       }
     }
   }
