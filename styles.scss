@@ -16,7 +16,7 @@
   ---color-grey-2: #b2becd;
   ---color-grey-3: #6c7983;
   ---color-grey-4: #454e56;
-  ---color-grey-5: #32363f;
+  ---color-grey-5: #31353e;
   ---color-grey-6: #12181b;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
@@ -253,9 +253,9 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    transform: translateX(-15%);
+    // transform: translateX(-15%);
     .about-item {
-      border: 1px solid var(---color-grey-4);
+      border: 1px solid var(---color-grey-5);
       border-radius: 5px;
       transition: all 0.4s ease-in-out;
       box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
@@ -288,7 +288,7 @@ section {
             left: 0;
             width: 2rem;
             height: 2px;
-            background-color: var(---color-grey-4);
+            background-color: var(---color-grey-5);
           }
         }
       }
@@ -297,7 +297,7 @@ section {
   .left-about {
     padding-right: 2rem;
     width: 65vh;
-    transform: translateX(-15%);
+    // transform: translateX(-15%);
     p {
       line-height: 1.5rem;
       padding: 0.5rem;
@@ -732,3 +732,5 @@ section {
     }
   }
 }
+
+@import "./media";
