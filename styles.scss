@@ -33,7 +33,7 @@
   ---color-grey-3: #6c7983;
   ---color-grey-4: #454e56;
   ---color-grey-5: #c9d0d7;
-  ---color-grey-6: #3f3b4a;
+  ---color-grey-6: rgb(24, 38, 75);
 }
 
 body {
@@ -52,7 +52,7 @@ a {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   color: var(--color-white);
   overflow: hidden;
   padding: 0 !important;
