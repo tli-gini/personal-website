@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   header {
     padding: 0;
   }
@@ -121,7 +121,7 @@
   }
 }
 
-@media screen and (max-width: 1432px) {
+@media (max-width: 1432px) {
   .header {
     padding: 0 !important;
   }
@@ -148,7 +148,7 @@
   }
 }
 
-@media screen and (max-width: 1070px) {
+@media (max-width: 1070px) {
   .about-container {
     grid-template-columns: 1fr;
     .right-about {
@@ -177,7 +177,7 @@
   }
 }
 
-@media screen and (max-width: 970px) {
+@media (max-width: 970px) {
   .section {
     padding: 7rem 6rem;
   }
@@ -236,7 +236,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
   .section {
     padding: 7rem 3rem;
   }
