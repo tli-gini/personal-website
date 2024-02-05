@@ -48,7 +48,7 @@
     .right-about {
       grid-template-columns: 1fr;
       padding-top: 2.5rem;
-      width: 70% !important;
+      width: 75% !important;
     }
     .left-about {
       padding-right: 0;
@@ -73,6 +73,9 @@
   .portfolios {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+    port-text {
+      padding-top: 4rem;
+    }
   }
 
   .blogs {
