@@ -48,11 +48,11 @@
     .right-about {
       grid-template-columns: 1fr;
       padding-top: 2.5rem;
-      width: 70%;
+      width: 70% !important;
     }
     .left-about {
       padding-right: 0;
-      width: 90%;
+      width: 90% !important;
       p {
         padding-left: 0;
       }
